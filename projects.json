@@ -1,17 +1,32 @@
 [
   {
     "name": "English Wikipedia",
-    "queryUrl": "https://quarry.wmcloud.org/run/1030274/output/0/json",
+    "queryUrl": "https://quarry.wmcloud.org/run/1030277/output/0/json",
     "talkBase": "https://en.wikipedia.org/wiki/User_talk:"
   },
   {
     "name": "Wikimedia Commons",
-    "queryUrl": "https://quarry.wmcloud.org/run/1030275/output/0/json",
+    "queryUrl": "https://quarry.wmcloud.org/run/1030371/output/0/json",
     "talkBase": "https://commons.wikimedia.org/wiki/User_talk:"
   },
   {
     "name": "Wikidata",
-    "queryUrl": "https://quarry.wmcloud.org/run/1030276/output/0/json",
+    "queryUrl": "https://quarry.wmcloud.org/run/1030278/output/0/json",
     "talkBase": "https://www.wikidata.org/wiki/User_talk:"
+  },
+  {
+    "name": "Malayalam Wikipedia",
+    "queryUrl": "https://quarry.wmcloud.org/run/1030282/output/0/json",
+    "talkBase": "https://ml.wikipedia.org/wiki/User_talk:"
+  },
+  {
+    "name": "Tamil Wikipedia",
+    "queryUrl": "https://quarry.wmcloud.org/run/1030378/output/0/json",
+    "talkBase": "https://ta.wikipedia.org/wiki/User_talk:"
+  },
+  {
+    "name": "Bengali Wikipedia",
+    "queryUrl": "https://quarry.wmcloud.org/run/1030377/output/0/json",
+    "talkBase": "https://bn.wikipedia.org/wiki/User_talk:"
   }
 ]
