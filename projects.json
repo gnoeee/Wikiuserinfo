@@ -1,0 +1,17 @@
+[
+  {
+    "name": "English Wikipedia",
+    "queryUrl": "https://quarry.wmcloud.org/run/1028909/output/0/json",
+    "talkBase": "https://en.wikipedia.org/wiki/User_talk:"
+  },
+  {
+    "name": "Wikimedia Commons",
+    "queryUrl": "https://quarry.wmcloud.org/run/1028910/output/0/json",
+    "talkBase": "https://commons.wikimedia.org/wiki/User_talk:"
+  },
+  {
+    "name": "Wikidata",
+    "queryUrl": "https://quarry.wmcloud.org/run/1028911/output/0/json",
+    "talkBase": "https://www.wikidata.org/wiki/User_talk:"
+  }
+]

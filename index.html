@@ -1,0 +1,40 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wikimedia First Edit Anniversary Dashboard</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div style="background:#f8f9fa; border:1px solid #ccc; padding:8px 12px; border-radius:8px; margin:8px 0; font-family:system-ui, sans-serif; font-size:16px;">
+  <p>👋 <strong>Hi there!</strong> 😊 I'm <a href="https://meta.wikimedia.org/wiki/User:Gnoeee" target="_blank">Gnoeee</a> :)</p>
+  <p>🎂 As Wikipedia turns <strong>25</strong>, let’s celebrate the people behind every edit — a global community built on collaboration and openness. 🌍 👉 Visit <a href="https://meta.wikimedia.org/wiki/User:Gnoeee/Wikipedia@25" target="_blank">this Meta-Wiki page</a> to know more about this small idea around Wikipedia@25.</p>
+</div>
+<header>
+
+<h1>Wikimedia Users Account Info</h1>
+
+<div class="filters">
+  <label>Project: <select id="projectSelect"></select></label>
+  <label>Month: <select id="month"></select></label>
+  <label>Day: <select id="day"></select></label>
+  <label>Activity: <select id="activityFilter">
+    <option value="all">All users</option>
+    <option value="1">Active last 1 month</option>
+    <option value="6">Active last 6 months</option>
+    <option value="12">Active last 1 year</option>
+    <option value="inactive">Not active last 1 year</option>
+  </select></label>
+  <button onclick="clearFilters()">Clear</button>
+</div>
+
+<div class="summary" id="summary">Loading...</div>
+
+<div class="grid" id="userGrid"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
